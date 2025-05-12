@@ -3,8 +3,11 @@
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
   </PropertyGroup>
 
-  <ItemGroup Condition="'$(Blubber)' == 'asdf'">
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  <ItemGroup Condition="'$(Blubber)' == 'true'">
+    <PackageReference Include="Newtonsoft.Json" />
+  </ItemGroup>
+    <ItemGroup Condition="'$(Blubber)' != 'true'">
+    <PackageReference Include="âsdf.bbqjolkiawef" />
   </ItemGroup>
 
 </Project>
