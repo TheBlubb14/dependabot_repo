@@ -7,7 +7,7 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
     <AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
     <CentralPackageVersionOverrideEnabled>true</CentralPackageVersionOverrideEnabled>
-    <Blubber>true</Blubber>
+    <Blubber>false</Blubber>
   </PropertyGroup>
 
   <Import Project="$(MSBuildThisFileDirectory)Versions.props" />
